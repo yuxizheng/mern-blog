@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
 
+// object iteral: {property1 name: value, property2 name: value,}
 const userSchema = new mongoose.Schema({
     username: {
         type: String,
